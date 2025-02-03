@@ -1,8 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const menuToggle = document.getElementById('mobile-menu');
-    const navLinks = document.querySelector('.nav-links');
+    const menuToggle = document.querySelector("#mobile-menu");
+    const navLinks = document.querySelector(".nav-links");
 
-    menuToggle.addEventListener('click', () => {
-        navLinks.classList.toggle('active');
-    });
+    if (menuToggle && navLinks) {
+        menuToggle.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+    } else {
+        console.error("Menu toggle or nav links not found!");
+    }
 });
