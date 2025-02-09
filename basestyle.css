@@ -1,42 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Average&family=Bebas+Neue&display=swap');
 
-.top {
-    margin-top: 30px;
-    margin: 40px 20px;
-}
-
-.top h1 {
-    font-family: 'Bebas Neue';
-    color: white;
-    font-size: 75px;
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-.top p {
-    color: #1565C0;
-    font-weight: bold;
-    font-size: 25px;
-    text-align: center;
-}
-
-.nav-links {
-    text-decoration: none;
-    list-style-type: none;
-}
-
-.features {
-    margin-top: 100px;
-}
-
-.features h1 {
-    color: white;
-    font-family: 'Bebas Neue';
-    font-size: 75px;
-    text-align: center;
-}
-
-
 body{
     background: linear-gradient(to top, #E3F2FD, #90CAF9);
 
@@ -155,71 +118,6 @@ ul {
         display: flex;
     }
 }
-
-
-
-.features {
-    padding: 40px 20px;
-    text-align: center;
-    margin-top: 40px;
-}
-
-.features h2 {
-    font-size: 28px;
-    margin-bottom: 30px;
-    color: #333;
-}
-
-.feature-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-.feature {
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: calc(25% - 20px);
-    min-width: 250px;
-    text-align: center;
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s;
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
-    display: flex;
-}
-
-
-.feature:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
-
-.feature i {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.feature h3 {
-    font-size: 20px;
-    color: #333;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-.feature p {
-    font-size: 16px;
-    color: #555;
-    line-height: 1.5;
-}
-
-
-
-
 
 
 
